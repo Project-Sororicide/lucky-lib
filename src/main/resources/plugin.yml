@@ -1,0 +1,10 @@
+name: LuckyLib
+version: ${project.version}
+main: dev.pupwired.luckylib.LuckyPlugin
+api-version: '1.21.11'
+description: The integral library containing most utilities and shared code for Project Sororicide.
+
+commands:
+  luckylib:
+    description: LuckyLib command
+    usage: /luckylib <version|credits>
