@@ -1,0 +1,4 @@
+mechanics:
+  disable-player-drops:
+    enabled: true
+    permission: "luckylib.allowdrops"
