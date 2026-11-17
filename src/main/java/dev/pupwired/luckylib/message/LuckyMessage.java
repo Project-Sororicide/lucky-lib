@@ -6,6 +6,8 @@ import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.apache.commons.lang3.StringUtils;
 import org.bukkit.command.CommandSender;
 
+import java.util.Arrays;
+
 public interface LuckyMessage {
 
     MiniMessage MM = MiniMessage.miniMessage();
@@ -17,7 +19,7 @@ public interface LuckyMessage {
 
         if (matches != strings.length) {
             LuckyPlugin.getInstance().getLogger().severe("Mismatch in messages, incorrect parameters supplied for " + getRaw() +
-                    ". Please inform plugin author.");
+                    ". Strings: " + Arrays.toString(strings));
         }
         return String.format(getRaw(), strings);
     }
