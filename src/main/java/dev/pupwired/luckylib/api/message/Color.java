@@ -1,4 +1,4 @@
-package dev.pupwired.luckylib.message;
+package dev.pupwired.luckylib.api.message;
 
 public enum Color {
     ERROR("#fb2e01"),

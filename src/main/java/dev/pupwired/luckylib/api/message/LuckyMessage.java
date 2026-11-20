@@ -1,4 +1,4 @@
-package dev.pupwired.luckylib.message;
+package dev.pupwired.luckylib.api.message;
 
 import dev.pupwired.luckylib.LuckyPlugin;
 import net.kyori.adventure.text.Component;
